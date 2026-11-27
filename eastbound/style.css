@@ -1,9 +1,7 @@
-@font-face{font-family:AshuriSans;src:url(../assets/AshuriSans-Normal-Light.woff2) format("woff2");font-weight:300}
-@font-face{font-family:AshuriSans;src:url(../assets/AshuriSans-Normal-Regular.woff2) format("woff2");font-weight:400}
-@font-face{font-family:AshuriSans;src:url(../assets/AshuriSans-Normal-Bold.woff2) format("woff2");font-weight:700}
+@font-face{font-family:Inter;src:url(../assets/Inter.ttf) format("truetype");font-weight:100 900;font-display:swap}
 :root{--bg:#14110F;--card:#1D1915;--fg:#F4DFCC;--mut:#B5A596;--ac:#F37004;--line:#3A322B}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:300 18px/1.65 AshuriSans,-apple-system,"Segoe UI",Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.65 Inter,-apple-system,"Segoe UI",Roboto,sans-serif}
 header{border-bottom:1px solid var(--line)}
 .bar{max-width:760px;margin:0 auto;padding:18px 20px;display:flex;align-items:center;gap:14px}
 .bar img.logo{height:46px;width:auto;display:block}
@@ -12,7 +10,7 @@ header{border-bottom:1px solid var(--line)}
 main{max-width:760px;margin:0 auto;padding:36px 20px 72px}
 .hero{display:flex;align-items:center;gap:18px;margin-bottom:6px}
 .hero img{width:72px;height:72px;border-radius:16px}
-h1{font-weight:700;font-size:34px;line-height:1.15;margin:0}
+h1{font-weight:800;font-size:34px;line-height:1.15;margin:0}
 .sub{color:var(--mut);margin:6px 0 0;font-size:15px}
 h2{font-weight:700;font-size:21px;margin:36px 0 6px;color:var(--ac)}
 p,li{margin:8px 0}ul{padding-left:22px}li::marker{color:var(--ac)}
